@@ -14,6 +14,8 @@
 		C61878D91C1FE9D500D89519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61878D71C1FE9D500D89519 /* LaunchScreen.storyboard */; };
 		C61878E41C1FE9D500D89519 /* alterControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61878E31C1FE9D500D89519 /* alterControllerDemoTests.swift */; };
 		C61878EF1C1FE9D500D89519 /* alterControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61878EE1C1FE9D500D89519 /* alterControllerDemoUITests.swift */; };
+		C61878FE1C1FEA5000D89519 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61878FC1C1FEA5000D89519 /* MyTableViewCell.swift */; };
+		C61878FF1C1FEA5000D89519 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61878FD1C1FEA5000D89519 /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C61878EA1C1FE9D500D89519 /* alterControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alterControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61878EE1C1FE9D500D89519 /* alterControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alterControllerDemoUITests.swift; sourceTree = "<group>"; };
 		C61878F01C1FE9D500D89519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61878FC1C1FEA5000D89519 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		C61878FD1C1FEA5000D89519 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C61878D51C1FE9D500D89519 /* Assets.xcassets */,
 				C61878D71C1FE9D500D89519 /* LaunchScreen.storyboard */,
 				C61878DA1C1FE9D500D89519 /* Info.plist */,
+				C61878FC1C1FEA5000D89519 /* MyTableViewCell.swift */,
+				C61878FD1C1FEA5000D89519 /* MyTableViewCell.xib */,
 			);
 			path = alterControllerDemo;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61878D91C1FE9D500D89519 /* LaunchScreen.storyboard in Resources */,
+				C61878FF1C1FEA5000D89519 /* MyTableViewCell.xib in Resources */,
 				C61878D61C1FE9D500D89519 /* Assets.xcassets in Resources */,
 				C61878D41C1FE9D500D89519 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +265,7 @@
 			files = (
 				C61878D11C1FE9D500D89519 /* ViewController.swift in Sources */,
 				C61878CF1C1FE9D500D89519 /* AppDelegate.swift in Sources */,
+				C61878FE1C1FEA5000D89519 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
